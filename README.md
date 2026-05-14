@@ -1,7 +1,7 @@
-# Fastfetch Configs
+# Configurations
 
-Some fastfetch configurations.
+Some configurations.
 
-## Configurations
+## Fastfetch
 
-[Type](./Type.jsonc)
+[Type](./Fastfetch/Type.jsonc)

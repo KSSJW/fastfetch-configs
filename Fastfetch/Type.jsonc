@@ -23,6 +23,14 @@
             "key": "|- Board"
         },
         {
+            "type": "bios",
+            "key": "|- BIOS"
+        },
+        {
+            "type": "tpm",
+            "key": "|- TPM"
+        },
+        {
             "type": "cpu",
             "key": "|- CPU",
             "showPeCoreCount": true,
@@ -97,26 +105,10 @@
         //     "type": "gamepad",
         //     "key": "|- GamePad"
         // },
-        {
-            "type": "localip",
-            "key": "|- LocalIP",
-            "showIpv6": false,
-            "showMac": false,
-            "showSpeed": false,
-            "showMtu": false,
-            "showLoop": false,
-            "showFlags": false,
-            "showAllIps": false
-        },
         // {
-        //     "type": "publicip",
-        //     "key": "|- PublicIP",
-        //     "timeout": 1000
+        //     "type": "wifi",
+        //     "key": "|- WiFi"
         // },
-        {
-            "type": "wifi",
-            "key": "|- WiFi"
-        },
         // {
         //     "type": "sound",
         //     "key": "|- Sound"
@@ -137,23 +129,12 @@
         "break",
 
         {
-            "type": "bios",
-            "key": "BIOS"
-        },
-        {
-            "type": "tpm",
-            "key": "|- TPM"
+            "type": "os",
+            "key": "OS"
         },
         {
             "type": "bootmgr",
             "key": "|- BootManager"
-        },
-
-        "break",
-
-        {
-            "type": "os",
-            "key": "OS"
         },
         {
             "type": "kernel",
@@ -170,6 +151,26 @@
         // {
         //     "type": "users",
         //     "key": "|- Users"
+        // },
+        {
+            "type": "shell",
+            "key": "|- Shell"
+        },
+        {
+            "type": "terminal",
+            "key": "|- Terminal"
+        },
+        // {
+        //     "type": "terminalfont",
+        //     "key": "|- TerminalFont"
+        // },
+        // {
+        //     "type": "terminalsize",
+        //     "key": "|- TerminalSize"
+        // },
+        // {
+        //     "type": "terminaltheme",
+        //     "key": "|- TerminalTheme"
         // },
         // {
         //     "type": "loadavg",
@@ -214,6 +215,22 @@
         // {
         //     "type": "dns",
         //     "key": "|- DNS"
+        // },
+        {
+            "type": "localip",
+            "key": "|- LocalIP",
+            "showIpv6": false,
+            "showMac": false,
+            "showSpeed": false,
+            "showMtu": false,
+            "showLoop": false,
+            "showFlags": false,
+            "showAllIps": false
+        },
+        // {
+        //     "type": "publicip",
+        //     "key": "|- PublicIP",
+        //     "timeout": 1000
         // },
         // {
         //     "type": "vulkan",
@@ -262,29 +279,6 @@
         // {
         //     "type": "wallpaper",
         //     "key": "|- Wallpaper"
-        // },
-
-        "break",
-
-        {
-            "type": "shell",
-            "key": "Shell"
-        },
-        {
-            "type": "terminal",
-            "key": "|- Terminal"
-        },
-        // {
-        //     "type": "terminalfont",
-        //     "key": "|- TerminalFont"
-        // },
-        // {
-        //     "type": "terminalsize",
-        //     "key": "|- TerminalSize"
-        // },
-        // {
-        //     "type": "terminaltheme",
-        //     "key": "|- TerminalTheme"
         // },
 
         "break",
